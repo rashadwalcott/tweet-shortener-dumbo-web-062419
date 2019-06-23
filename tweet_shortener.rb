@@ -26,7 +26,7 @@ def selective_tweet_shortener(tweets)
  tweets.split.map do |tweet|
    if tweets.length > 140
      word_substituter(tweet)
-     tweets.join(' ')
+     tweet.join(' ')
    elsif tweets <= 140
       tweets
    end
