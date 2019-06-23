@@ -30,7 +30,6 @@ def selective_tweet_shortener(tweets)
    end
    tweets
  end
-end
 
 def shortened_tweet_truncator(tweets)
   tweets.split(" ").map do |tweet|
