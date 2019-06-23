@@ -30,7 +30,7 @@ def selective_tweet_shortener(tweets)
       tweets
    end
  end
- t
+ tweet
 end
 
 def shortened_tweet_truncator(tweets)
