@@ -29,7 +29,7 @@ def selective_tweet_shortener(tweets)
      tweets
    elsif tweets <= 140
       tweets
-   end.join
+   end.join(" ")
  end
 end
 
@@ -40,5 +40,5 @@ def shortened_tweet_truncator(tweets)
     else
   tweet
 end
-end.join
+end.join(" ")
 end
