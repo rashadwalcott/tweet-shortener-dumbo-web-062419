@@ -4,26 +4,16 @@ def dictionary
 }
 end
 
-=begin def word_substituter(tweet_one)
+def word_substituter(tweet_one)
  
   array = tweet_one.split(/ /)
   array.each do |tweet|
-    dictionary.each do |key,value|
-    if tweet == key
-      tweet = value
+    dictionary.each do |word, replace|
+    if tweet.include? word
+      tweet = replace
     end
   end
   end
   array.join(' ')
-=end
-
-def word_substituter(tweet_one)
-
-  array = tweet_one.split(/ /)
-  array.map do |tweet|
-    if tweet == dictionary.keys
-      array[tweet] = dictionary.values
-  end
-  end
-  array.join(" ")
 end
+
