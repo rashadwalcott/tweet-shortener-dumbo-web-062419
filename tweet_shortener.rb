@@ -29,7 +29,7 @@ def selective_tweet_shortener(tweets)
      tweets
    elsif tweets <= 140
       tweets
-   end
+   end.join
  end
 end
 
