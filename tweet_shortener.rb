@@ -32,7 +32,7 @@ def selective_tweet_shortener(tweet_one)
  end
 end
 
-def shortened_tweet_truncator
+def shortened_tweet_truncator(tweets)
   
   
 end
