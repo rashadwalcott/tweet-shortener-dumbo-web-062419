@@ -22,12 +22,12 @@ def bulk_tweet_shortener(tweets)
   end
 end
 
-def selective_tweet_shortener(tweet_one)
- tweet_one.split.map do |tweet|
-   if tweet_one.length > 140
+def selective_tweet_shortener(tweets)
+ tweets.split.map do |tweet|
+   if twees.length > 140
      word_substituter(tweet)
-   elsif tweet_one <= 140
-      tweet_one
+   elsif tweets <= 140
+      tweets
    end
  end
 end
