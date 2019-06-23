@@ -40,5 +40,6 @@ def shortened_tweet_truncator(tweets)
     else
   tweet
 end
+tweets
 end.join(" ")
 end
